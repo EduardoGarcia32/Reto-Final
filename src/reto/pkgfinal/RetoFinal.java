@@ -78,9 +78,20 @@ public class RetoFinal {
                         System.out.println(Nombre +" El poder es de " + PoderHeroe);
                         System.out.println("Poder del mago: " + PoderMago);  
                     }
-    
+                    
+        System.out.println("¡Escribe buscar para salvar a las hadas!");
+            Repito = s.nextLine();
+            
+            }while( PoderHeroe > 0 && PoderMago > 0 && Repito.equals("Buscar"));
+            
+            if(PoderHeroe == 0){
+                System.out.println("Has perdido el Mago te a vencido");
+            }if(PoderMago == 0){
+                System.out.println("¡VICTORIA! Lograste derrotar al mago y salvaste a las hadas");
+
             }
          }
+    }
           
     
 
