@@ -56,7 +56,29 @@ public class RetoFinal {
             PoderHeroe = PoderHeroe - c; 
             System.out.println("El ogro termino su turno y recibio " + c + " Golpes " + " Poder de Vida: " + PoderHeroe );
 
-           
+        if(HadaZ >= 10){
+            
+        
+                        System.out.println("El mago a capturado 10 hadas su poder incrementa" );
+                        PoderMago = PoderMago + 1;
+                        
+                        System.out.println("Poder del Mago: " + PoderMago);
+                        HadaZ = 0;
+    
+                    }
+        
+                    if(HadaJu >= 10){
+                        System.out.println("Has conseguido 10 hadas y les conseguiste un hogar");
+                        System.out.println("El poder del mago baja y tu poder aumenta");
+                        
+                        PoderMago = PoderMago - 1;
+                        PoderHeroe = PoderHeroe + 1;
+                        HadaJu = 0;
+                        
+                        System.out.println(Nombre +" El poder es de " + PoderHeroe);
+                        System.out.println("Poder del mago: " + PoderMago);  
+                    }
+    
             }
          }
           
