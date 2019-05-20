@@ -45,6 +45,17 @@ public class RetoFinal {
             a = Mialeatorio.nextInt(10);
             b = Mialeatorio.nextInt(10);
             c = Mialeatorio.nextInt(2);
+            
+            System.out.println("Espere su turno");
+            HadaZ = HadaZ + a;
+            System.out.println("El Mago consiguio "  +  a  +  " Hadas!!");
+            
+            HadaJu = HadaJu + b;
+            System.out.println(Nombre + " Obtuvo  " +  b  +  " Hadas!!");
+             
+            PoderHeroe = PoderHeroe - c; 
+            System.out.println("El ogro termino su turno y recibio " + c + " Golpes " + " Poder de Vida: " + PoderHeroe );
+
            
             }
          }
