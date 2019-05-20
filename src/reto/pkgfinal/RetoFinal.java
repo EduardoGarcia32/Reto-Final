@@ -22,20 +22,32 @@ public class RetoFinal {
         // TODO code application logic here
         
         Scanner s = new Scanner(System.in);
-        int PoderHeroe = 2;
-        int PoderMago = 2;
+            int PoderHeroe = 2;
+            int PoderMago = 2;
         
-        int HadaZ = 0;
-        int HadaJu = 0;
-        int Madera = 0;
-        int a,b,c = 0 ;
+            int HadaZ = 0;
+            int HadaJu = 0;
+            int Madera = 0;
+            int a,b,c = 0 ;
         
-        String Nombre;
-        String Ok;
-        String Repito = "salir";
+            String Nombre;
+            String Ok;
+            String Repito = "Salir";
        
+        System.out.println("¿Como se llamara tu Heroe?");
+            Nombre = s.nextLine();
+            
+        System.out.println("Presione iniciar para comenzar");
+            Ok = s.nextLine();
+        
+            do{
+            Random Mialeatorio = new Random();
+            a = Mialeatorio.nextInt(10);
+            b = Mialeatorio.nextInt(10);
+            c = Mialeatorio.nextInt(2);
+           
+            }
+         }
           
-        }
-    }
     
 
